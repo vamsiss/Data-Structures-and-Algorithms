@@ -33,12 +33,12 @@ void merge(int arr[], int low, int mid, int high)
     // temp arrays
     int arr1[n1], arr2[n2];
 
-    for (int i = 0; i < n1; i++)
+    for (int i = 0; i < n1; i++) // arr1 has low to mid
     {
         arr1[i] = arr[low + i];
     }
 
-    for (int i = 0; i < n2; i++)
+    for (int i = 0; i < n2; i++) // arr2 has mid to high
     {
         arr2[i] = arr[mid + 1 + i];
     }
